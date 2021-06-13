@@ -1,0 +1,176 @@
+body {
+    background-image: url(img/patterns.png);
+    color: #ffffff;
+    font-family: 'Noto Sans KR' sans-serif;
+}
+
+article {
+    display: flex; 
+    flex-direction: column;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    display: none;
+    
+}
+
+.result {
+    display: none;
+}
+
+#img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #d18b49de;
+}
+
+.main-title {
+    font-size: 20px;
+    color: #7c7c7c;
+}
+
+.sub-title {
+    font-size: 40px;
+    font-weight: 100;
+    color: #ebebeb;
+}
+
+.btn-start {
+    font-size: 30px;
+    color: #ff9300;
+    background-color: #1f1f1f;
+    border: #1f1f1f;
+}
+
+.start-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-content {
+    font-size: 25px;
+    color: #ff9300;
+}
+
+.rectangle {
+    width: 288px;
+    height: 8px;
+    background-color: #383a43;
+    margin: 0 auto;
+}
+
+.mid-rectangle {
+    width: 288px;
+    height: 1px;
+    background-color: #383a43;
+    margin: 0 auto;
+}
+
+.btn-answer {
+    background-color: #363636;
+    border: #1f1f1f;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.btn-answer:hover {
+    background-color: #2d5992 !important;
+    border: #1f1f1f !important;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.progress-bar {
+    background-color: #ff9300;
+}
+
+.progress {
+    background-color: #525764;
+}
+
+.updown-slash {
+    width: 166px;
+    margin: 0 auto;
+}
+
+.result-message {
+    color: #ff9300;
+    margin: 0 auto;
+    font-size:30px;
+    font-weight: 100;
+}
+
+.result-animal {
+    font-size: 25px;
+    font-weight: 100;
+    color: #ebebeb;
+}
+
+.result-explain {
+    font-size: 20px;
+    font-weight: normal;
+    color: #ff9300;
+}
+
+.share {
+    margin: 0 auto;
+}
+
+.kakao_ad {
+    width: 320px;
+    margin: 0 auto;
+}
+
+
+button{
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  button:hover{
+    background:#fff;
+    color:#1AAB8A;
+  }
+  button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
+  }
+  button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
